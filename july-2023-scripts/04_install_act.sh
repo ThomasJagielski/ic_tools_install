@@ -8,7 +8,6 @@ cd $ACT_HOME
 git clone https://github.com/asyncvlsi/actflow.git
 cd actflow
 git submodule update --init --recursive
-./build
 
 # Build actsim with xyce
 cd ./actsim/xyce-bits/
@@ -19,6 +18,9 @@ cp libxycecinterface.a $ACT_HOME/lib
 cp N_CIR_XyceCInterface.h $ACT_HOME/include
 cd ..
 ./grab_xyce.sh $ACT_HOME/xyce/Xyce/build
+
+cd $ACT_HOME/actflow
+./build
 
 cd $ACT_HOME/conf/sky130l
 cp $START_PWD/models.sp ./
