@@ -18,5 +18,6 @@ patch -p2 < $HOME/skywater/xschem_sky130/sky130_fd_pr.patch
 
 # Xyce skywater files
 cp sky130-xyce.tar.xz ~/skywater
+cd ~/skywater
 tar xf sky130-xyce.tar.xz
 rm -rf sky130-xyce.tar.xz
