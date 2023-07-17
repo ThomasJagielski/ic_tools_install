@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=magic
+Exec=magic
+Icon=magic.png
+Terminal=true
+Type=Application

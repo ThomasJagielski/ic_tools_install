@@ -1,0 +1,25 @@
+v {xschem version=2.9.8 file_version=1.2}
+G {}
+K {type=resistor
+format="@name @pinlist @value m=@m"
+template="name=R1
+value=1k
+m=1"
+}
+V {}
+S {}
+E {}
+L 4 0 -30 0 -16.875 {}
+L 4 0 -16.875 5.625 -14.0625 {}
+L 4 5.625 -14.0625 -5.625 -8.4375 {}
+L 4 -5.625 -8.4375 5.625 -2.8125 {}
+L 4 5.625 -2.8125 -5.625 2.8125 {}
+L 4 -5.625 2.8125 5.625 8.4375 {}
+L 4 5.625 8.4375 -5.625 14.0625 {}
+L 4 -5.625 14.0625 0 16.875 {}
+L 4 0 16.875 0 30 {}
+B 5 -0.5 -30.5 0.5 -29.5 {name=pos dir=inout}
+B 5 -0.5 29.5 0.5 30.5 {name=neg dir=inout}
+T {@name} 11.625 -7.5 0 0 0.2 0.2 {vcenter=true}
+T {@value} 11.625 7.5 0 0 0.2 0.2 {vcenter=true}
+T {m=@m} 11.625 22.5 0 0 0.2 0.2 {vcenter=true layer=13}

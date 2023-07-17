@@ -1,0 +1,14 @@
+# List of tcl files to preload
+lappend tcl_files ${XSCHEM_SHAREDIR}/ngspice_backannotate.tcl
+
+# Configure xschem project directory to use sky130 symbols
+set XSCHEM_LIBRARY_PATH {}
+append XSCHEM_LIBRARY_PATH :${XSCHEM_SHAREDIR}/xschem_library
+append XSCHEM_LIBRARY_PATH :$env(HOME)/skywater/xschem_sky130
+
+# Define custom standard cell library location
+append XSCHEM_LIBRARY_PATH :/home/thomas/Documents/ic_design_library/tech_lib/xschem/
+append XSCHEM_LIBRARY_PATH :/home/thomas/Documents/ic_design_library/sky130
+
+set SKYWATER_MODELS ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest
+set SKYWATER_STDCELLS ~/skywater/skywater-pdk/libraries/sky130_fd_sc_hd/latest

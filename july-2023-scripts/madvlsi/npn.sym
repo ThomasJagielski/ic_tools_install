@@ -1,0 +1,25 @@
+v {xschem version=2.9.8 file_version=1.2}
+G {}
+K {type=npn
+format="@name @pinlist @model area=@area m=@m"
+template="name=Q1
+model=npn
+area=1
+m=1"
+}
+V {}
+S {}
+E {}
+L 4 0 -30 0 -15 {}
+L 4 0 -15 -18.75 -7.5 {}
+L 4 -18.75 -15 -18.75 15 {}
+L 4 -18.75 7.5 0 15 {}
+L 4 0 15 0 30 {}
+L 4 -30 0 -18.75 0 {}
+P 4 6 0 15 -5.4313 9.8279 -6.5554 11.3563 -7.26 13.118 -7.5 15 0 15 {fill=true}
+B 5 -0.5 -30.5 0.5 -29.5 {name=C dir=inout}
+B 5 -30.5 -0.5 -29.5 0.5 {name=B dir=in}
+B 5 -0.5 29.5 0.5 30.5 {name=E dir=inout}
+T {@name} 5 -7.5 0 0 0.2 0.2 {vcenter=true}
+T {@model} 5 7.5 0 0 0.2 0.2 {vcenter=true}
+T {@m x @area} 5 22.5 0 0 0.2 0.2 {vcenter=true layer=13}

@@ -1,0 +1,20 @@
+v {xschem version=2.9.8 file_version=1.2}
+G {}
+K {type=diode
+format="@name @pinlist @model area=@area m=@m"
+template="name=D1
+model=diode
+area=1
+m=1"}
+V {}
+S {}
+E {}
+L 4 0 -30 0 -9.375 {}
+P 4 4 -13.125 -9.375 13.125 -9.375 0 9.375 -13.125 -9.375 {fill=true}
+L 4 -13.125 9.375 13.125 9.375 {}
+L 4 0 9.375 0 30 {}
+B 5 -0.5 -30.5 0.5 -29.5 {name=pos dir=inout}
+B 5 -0.5 29.5 0.5 30.5 {name=neg dir=inout}
+T {@name} 18.125 -7.5 0 0 0.2 0.2 {vcenter=true}
+T {@model} 18.125 7.5 0 0 0.2 0.2 {vcenter=true}
+T {@m x @area} 18.125 22.5 0 0 0.2 0.2 {vcenter=true layer=13}

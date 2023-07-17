@@ -1,0 +1,23 @@
+v {xschem version=2.9.8 file_version=1.2}
+G {}
+K {type=current_probe
+format="@name @pinlist 0
+.save I( ?1 @name )"
+template="name=Vmeas"}
+V {}
+S {}
+E {}
+L 4 0 0 0 10 {}
+L 4 5.625 -12.5 5.625 10 {}
+L 4 2.8125 0.625 3.75 2.5 {}
+L 4 3.75 2.5 4.6875 4.84375 {}
+L 4 4.6875 4.84375 5.15625 6.25 {}
+L 4 5.15625 6.25 5.625 9.0625 {}
+L 4 5.625 9.0625 6.09375 6.25 {}
+L 4 6.09375 6.25 6.5625 4.84375 {}
+L 4 6.5625 4.84375 7.5 2.5 {}
+L 4 7.5 2.5 8.4375 0.625 {}
+B 5 -0.5 -0.5 0.5 0.5 {name=pos dir=inout propagate_to=1}
+B 5 -0.5 9.5 0.5 10.5 {name=neg dir=inout propagate_to=0}
+T {@name} 13.4375 -1.25 0 0 0.2 0.2 {vcenter=true}
+T {@current} 13.4375 8.75 0 0 0.15 0.15 {vcenter=true layer=15}

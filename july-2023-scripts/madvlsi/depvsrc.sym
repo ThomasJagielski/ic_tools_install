@@ -1,0 +1,22 @@
+v {xschem version=2.9.8 file_version=1.2}
+G {}
+K {type=vsource
+format="@name @pinlist V=@func"
+template="name=B1
+func=1"}
+V {}
+S {}
+E {}
+L 4 0 -30 0 -15 {}
+L 4 0 15 0 30 {}
+L 4 0 -15 15 0 {}
+L 4 15 0 0 15 {}
+L 4 0 15 -15 0 {}
+L 4 -15 0 0 -15 {}
+L 4 -3.75 -7.5 3.75 -7.5 {}
+L 4 0 -11.25 0 -3.75 {}
+L 4 -3.75 7.5 3.75 7.5 {}
+B 5 -0.5 -30.5 0.5 -29.5 {name=pos dir=inout}
+B 5 -0.5 29.5 0.5 30.5 {name=neg dir=inout}
+T {@name} 20 -7.5 0 0 0.2 0.2 {vcenter=true}
+T {@func} 20 7.5 0 0 0.2 0.2 {vcenter=true}

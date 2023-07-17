@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=xschem
+Exec=xschem
+Icon=xschem-icon.xpm
+Terminal=false
+Type=Application
