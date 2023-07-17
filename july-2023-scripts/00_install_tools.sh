@@ -27,7 +27,8 @@ echo \
   
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
-sudo apt install python3.10-venv -y
+# sudo apt install python3.10-venv -y
+sudo apt install python3-venv -y
 
 # Test docker by running "sudo docker run hello-world"
 
