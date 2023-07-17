@@ -13,6 +13,7 @@ echo $START_PWD
 echo "Installing dependencies."
 
 # Install Docker for Openlane
+sudo apt install curl -y
 sudo apt install gnome-terminal -y
 sudo apt remove docker-desktop -y
 sudo apt-get update
