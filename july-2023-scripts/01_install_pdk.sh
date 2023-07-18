@@ -20,8 +20,8 @@ cd ~/skywater/
 git clone git://opencircuitdesign.com/open_pdks
 cd open_pdks
 # git checkout open_pdks-1.0
-# sudo ./configure --enable-sky130-pdk=$HOME/skywater/skywater-pdk/libraries --with-sky130-variants=A --with-ef-style
-./configure --enable-sky130-pdk=$HOME/skywater/skywater-pdk/libraries --with-sky130-variants=all --with-ef-style
+./configure --enable-sky130-pdk=$HOME/skywater/skywater-pdk/libraries --with-sky130-variants=A --with-ef-style
+# ./configure --enable-sky130-pdk=$HOME/skywater/skywater-pdk/libraries --with-sky130-variants=all --with-ef-style
 make
 sudo make install
 #cd sky130
