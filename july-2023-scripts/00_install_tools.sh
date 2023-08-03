@@ -148,9 +148,9 @@ sudo make install
 cd $START_PWD
 
 echo "# Installing Openlane"
-git clone https://github.com/The-OpenROAD-Project/OpenLane
-cd OpenLane
-sudo make
+# git clone https://github.com/The-OpenROAD-Project/OpenLane
+# cd OpenLane
+# sudo make
 # sudo make test
 # cd $START_PWD
 
